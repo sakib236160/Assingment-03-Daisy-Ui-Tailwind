@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Striking Barn</title>
+    <!------------------------------- Font-Awesome Link ---------------------------------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-------------------------------------- Google Font ------------------------------------------------>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-----------------------------------Daisy Ui and Tailwind CSS Link ---------------------------------->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!------------------------------ Tailwind Css Configuration ------------------------------------------>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                primary: '#ABEF5F',
+                secondary: '#212121',
+                accent:'rgba(171, 239, 95, 0.50)',
+                neutral: 'var(--Color-Neotral-Color-grey-4, #737373)',
+                background:'#F4F4F4',
+              },
+              fontFamily:{
+                Manrope:'Manrope',
+              },
+            //   backgroundImage:{
+            //     leaf1:"url('./images/leaf01.png')",
+            //     call_to_action:"url('./images/call.jpg')",
+            //   },
+            },
+          },
+        }
+      </script>
+</head>
+<body class="font-Manrope">
+    <header>
+    <!--------------------- navbar section start  -------------------------------->
+        <section>
+            <nav class="w-11/12 mx-auto mt-5">
+                <div class="navbar">
+                    <div class="navbar-start">
+                      <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                          <i class="fa-solid fa-bars"></i>
+                        </div>
+                        <ul
+                          tabindex="0"
+                          class=" dropdown-content mt-3 w-52 p-2 ">
+                          <li><a class="font-bold text-neutral hover:text-secondary cursor-pointer">Home</a></li>
+                          <li><a class="font-bold text-neutral hover:text-secondary cursor-pointer">Everything</a></li>
+                          <li><a class="font-bold text-neutral hover:text-secondary cursor-pointer">Groceries</a></li>
+                          <li><a class="font-bold text-neutral hover:text-secondary cursor-pointer">About</a></li>
+                          <li><a class="font-bold text-neutral hover:text-secondary cursor-pointer">Contract</a></li>
+                        </ul>
+                      </div>
+                      <div>
+                        <a class="flex items-center gap-1 text-xl cursor-pointer">
+                            <i class="fa-solid fa-arrow-right  w-7 h-7 bg-primary inline-flex rounded-full justify-center items-center -rotate-45 "></i>
+                            <h2 class="text-3xl font-bold text-secondary">Rinterio</h2>
+                          </a>
+                      </div>
+                    </div>
+                    <div class="navbar-center hidden lg:flex mr-24">
+                      <ul class="flex space-x-8 items-center px-1">
+                        <li><a class="font-bold text-neutral hover:text-secondary cursor-pointer">Home</a></li>
+                          <li><a class="font-bold text-neutral hover:text-secondary cursor-pointer">Services</a></li>
+                          <li><a class="font-bold text-neutral hover:text-secondary cursor-pointer">Portfolio</a></li>
+                          <li><a class="font-bold text-neutral hover:text-secondary cursor-pointer">Blogs</a></li>
+                          <li><a class="font-bold text-neutral hover:text-secondary cursor-pointer">Contact Us</a></li>
+                      </ul>
+                    </div>
+                    <div class="navbar-end hidden lg:flex">
+                        <div class="space-x-4">
+                            <i class="fa-solid fa-magnifying-glass  w-9 h-9 border bottom-5 bg-slate-100 inline-flex rounded-full justify-center items-center  "></i>
+                            <i class="fa-solid fa-cart-shopping  w-9 h-9 border bottom-5 bg-slate-100 inline-flex rounded-full justify-center items-center "></i>
+                        </div>
+                        <div class="bg-primary rounded-full ml-4 py-3 px-3">
+                            <a class="font-bold">Book Consult</a>
+                            <i class="fa-solid fa-arrow-right  w-7 h-7 bg-secondary text-white inline-flex rounded-full justify-center items-center -rotate-45 "></i>
+                        </div>
+                    </div>
+                  </div>
+            </nav>
+        </section>
+    <!--------------------- navbar section end  -------------------------------->
+
+    <!--------------------- Banner section start  -------------------------------->
+    <section>
+        <div class="hero w-11/12 mx-auto">
+            <div class="hero-content text-center">
+              <div>
+                <div class="max-w-md mx-auto mb-4">
+                    <img src="./assets/banner.png" alt="">
+                </div>
+                <h1 class=" max-w-3xl mx-auto text-5xl font-bold mb-4 text-secondary">A barn house of this design has a striking appearance</h1>
+                <p class="py-6 max-w-2xl mx-auto text-neutral">
+                    The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+                </p>
+                <button class="bg-accent rounded-full ml-4 py-3 px-5">
+                    <a class="font-bold">Book Consult</a>
+                    <i class="fa-solid fa-arrow-right  w-7 h-7 bg-primary inline-flex rounded-full justify-center items-center -rotate-45 "></i>
+                </button>
+              </div>
+            </div>
+          </div>
+    </section>
+    <!--------------------- Banner section end  -------------------------------->
+    <!--------------------- About Us section start  -------------------------------->
+    <section>
+
+    </section>
+    <!--------------------- About Us section end  -------------------------------->
+
+    
+    </header>
+</body>
+</html>
